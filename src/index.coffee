@@ -5,6 +5,7 @@ nth = (i, list) => list[i]
 VALID_ARGS = [ 'country', 'topn', 'seek', 'pattern', 'motion', 'clock', 'detect_region', 'json' ]
 DEFAULT_OPTIONS =
     json: true
+    country: 'eu'
 
 concatArg = (args, [key, value]) =>
   if typeof value == 'boolean'

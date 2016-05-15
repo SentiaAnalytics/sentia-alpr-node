@@ -18,7 +18,8 @@
   VALID_ARGS = ['country', 'topn', 'seek', 'pattern', 'motion', 'clock', 'detect_region', 'json'];
 
   DEFAULT_OPTIONS = {
-    json: true
+    json: true,
+    country: 'eu'
   };
 
   concatArg = (function(_this) {
